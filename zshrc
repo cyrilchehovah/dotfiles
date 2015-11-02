@@ -30,6 +30,8 @@ export PATH="./bin:${RBENV_ROOT}/shims:${RBENV_ROOT}/bin:${PATH}"
 bindkey '^[OA' history-substring-search-up
 bindkey '^[OB' history-substring-search-down
 
+alias bi="bundle install"
+
 # UTF-8 is our default encoding
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
